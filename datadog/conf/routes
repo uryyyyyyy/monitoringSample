@@ -4,4 +4,5 @@
 
 # An example controller showing a sample home page
 
-GET     /hello                   controllers.api.
+GET     /hello                   controllers.AsyncController.message()
+GET     /hello2                   controllers.AsyncController.message2()
